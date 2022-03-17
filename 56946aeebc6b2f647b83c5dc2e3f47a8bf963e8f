@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "edb1744b_220fc8ef",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-03-17T00:30:49Z",
+      "side": 1,
+      "message": "I like 9125: fastboot: Fallback to \"raw\" partition type if fastboot hal isn\u0027t present | https://review.calyxos.org/c/CalyxOS/platform_system_core/+/9125",
+      "revId": "56946aeebc6b2f647b83c5dc2e3f47a8bf963e8f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
