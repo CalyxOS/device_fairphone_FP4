@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b274d8da_8a38191d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-03-25T11:03:28Z",
+      "side": 1,
+      "message": "We don\u0027t need this so if it\u0027s WiP could move it out of chain.",
+      "revId": "57f03faf71df6e98af3297a582b97c0f882e12a0",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
