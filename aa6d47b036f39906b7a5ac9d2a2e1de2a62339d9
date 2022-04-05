@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5229ccb7_a975a2ef",
+        "filename": "vendor.prop",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-04-05T23:55:52Z",
+      "side": 1,
+      "message": "What if we drop sbc and aac from these lists?",
+      "revId": "aa6d47b036f39906b7a5ac9d2a2e1de2a62339d9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
