@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a80cf219_60b8f28c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-04-06T00:20:30Z",
+      "side": 1,
+      "message": "Would prefer if this were pulling from the URL directly instead of a remote next time.\n\n",
+      "revId": "d0e8d8e60b42bf0460641869c3ddd7ab2376574a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
