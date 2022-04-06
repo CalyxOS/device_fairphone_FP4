@@ -34,6 +34,24 @@
       "parentUuid": "5229ccb7_a975a2ef",
       "revId": "aa6d47b036f39906b7a5ac9d2a2e1de2a62339d9",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ec304257_e08fe9ae",
+        "filename": "vendor.prop",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-04-06T00:20:05Z",
+      "side": 1,
+      "message": "Built-in speakers are pretty good (testing using a BT speaker here)",
+      "parentUuid": "262345f9_b9b5c953",
+      "revId": "aa6d47b036f39906b7a5ac9d2a2e1de2a62339d9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
