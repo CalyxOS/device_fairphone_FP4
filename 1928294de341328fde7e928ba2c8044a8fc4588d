@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2a649839_fe18cef6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-04-06T12:28:50Z",
+      "side": 1,
+      "message": "Not ideal, but at least it makes things work, and should also keep LDAC and aptX working still hopefully.",
+      "revId": "1928294de341328fde7e928ba2c8044a8fc4588d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
