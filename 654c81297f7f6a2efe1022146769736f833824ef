@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4228562c_09c57617",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-04-06T00:12:19Z",
+      "side": 1,
+      "message": "Why so old?",
+      "revId": "654c81297f7f6a2efe1022146769736f833824ef",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
