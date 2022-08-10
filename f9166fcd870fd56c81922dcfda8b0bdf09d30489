@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1c29a984_5c9bbaac",
+        "filename": ".gitupstream-lineage",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-08-10T20:50:22Z",
+      "side": 1,
+      "message": "2 empty lines intentional?",
+      "revId": "f9166fcd870fd56c81922dcfda8b0bdf09d30489",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
