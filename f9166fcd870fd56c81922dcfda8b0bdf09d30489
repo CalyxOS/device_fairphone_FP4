@@ -16,6 +16,24 @@
       "message": "2 empty lines intentional?",
       "revId": "f9166fcd870fd56c81922dcfda8b0bdf09d30489",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ed43b6b5_ecbd4e7d",
+        "filename": ".gitupstream-lineage",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2022-08-14T10:42:39Z",
+      "side": 1,
+      "message": "No, editor error",
+      "parentUuid": "1c29a984_5c9bbaac",
+      "revId": "f9166fcd870fd56c81922dcfda8b0bdf09d30489",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
