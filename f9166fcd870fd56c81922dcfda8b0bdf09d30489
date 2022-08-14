@@ -34,6 +34,24 @@
       "parentUuid": "1c29a984_5c9bbaac",
       "revId": "f9166fcd870fd56c81922dcfda8b0bdf09d30489",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "43c2e8d3_67bf4b29",
+        "filename": ".gitupstream-lineage",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2022-08-14T10:44:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ed43b6b5_ecbd4e7d",
+      "revId": "f9166fcd870fd56c81922dcfda8b0bdf09d30489",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
