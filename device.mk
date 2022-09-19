@@ -12,9 +12,6 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 # Enable virtual A/B OTA
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 
-# Include GSI keys
-$(call inherit-product, build/make/target/product/gsi_keys.mk)
-
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
@@ -119,7 +116,6 @@ PRODUCT_PACKAGES += \
 
 # Audio (Hardware)
 PRODUCT_PACKAGES += \
-    audio.a2dp.default \
     audio.primary.lito \
     audio.r_submix.default \
     audio.usb.default
@@ -178,7 +174,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0.vendor:64 \
     android.hardware.bluetooth.audio@2.0-impl \
     audio.bluetooth.default \
-    audio.hearing_aid.default \
     com.dsi.ant@1.0.vendor \
     vendor.qti.hardware.bluetooth_audio@2.1.vendor \
     vendor.qti.hardware.btconfigstore@1.0.vendor \
