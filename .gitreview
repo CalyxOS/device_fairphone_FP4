@@ -2,4 +2,4 @@
 host=review.calyxos.org
 port=29418
 project=CalyxOS/device_fairphone_FP4
-defaultbranch=android12L
+defaultbranch=android13
