@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "580e1ec3_9d50731b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-09-19T22:54:38Z",
+      "side": 1,
+      "message": "Looks like I\u0027m the only one using this 😜",
+      "revId": "75b3bfe9f2fdbc4b2e410b089ca096b8eee2055a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
