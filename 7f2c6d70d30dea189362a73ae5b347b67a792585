@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fa56b689_fe838979",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-10-10T17:58:10Z",
+      "side": 1,
+      "message": "Test: get_build_var PLATFORM_SECURITY_PATCH_TIMESTAMP",
+      "revId": "7f2c6d70d30dea189362a73ae5b347b67a792585",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
