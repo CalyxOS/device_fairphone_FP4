@@ -192,8 +192,7 @@ ENABLE_VENDOR_RIL_SERVICE := true
 BOOT_SECURITY_PATCH := 2022-09-05
 PLATFORM_SECURITY_PATCH := 2022-09-05
 VENDOR_SECURITY_PATCH := 2022-09-05
-# Make sure this value only gets incremented as it's used as the rollback index
-PLATFORM_SECURITY_PATCH_TIMESTAMP := $(shell date -d 'TZ="GMT" 2022-09-05' +%s)
+PLATFORM_SECURITY_PATCH_TIMESTAMP := $(shell date -d 'TZ="GMT" $(PLATFORM_SECURITY_PATCH)' +%s)
 
 # SEPolicy
 include device/qcom/sepolicy_vndr-legacy-um/SEPolicy.mk
