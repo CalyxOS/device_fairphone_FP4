@@ -16,6 +16,23 @@
       "message": "```\n$ rg \u0027a2dp_offload.disabled|scram.enabled\u0027\n341488\n504:[persist.bluetooth.a2dp_offload.disabled]: [true]\n569:[persist.vendor.qcom.bluetooth.scram.enabled]: [false]\n\n13780\n504:[persist.bluetooth.a2dp_offload.disabled]: [false]\n569:[persist.vendor.qcom.bluetooth.scram.enabled]: [true]\n```",
       "revId": "f0eb5d86e6be72a65637e6c9aa3122433e1775bc",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e1790c1c_6957a1f8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-10-11T22:53:29Z",
+      "side": 1,
+      "message": "a2dp works after first boot with this. Keeps working after reboot.",
+      "revId": "f0eb5d86e6be72a65637e6c9aa3122433e1775bc",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
