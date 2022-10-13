@@ -16,6 +16,24 @@
       "message": "Should we move these to a different file / location. Why have a conflict every month.",
       "revId": "26014a2b5ee65504f9eefc6e7fbe74a431784c67",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "16edca26_0d66b104",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 193,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2022-10-13T19:27:33Z",
+      "side": 1,
+      "message": "Having it conflict makes it easier to keep them all in sync in the merge commit though vs having a separate commit and potentially forget about it",
+      "parentUuid": "0014c0e6_bc5ff150",
+      "revId": "26014a2b5ee65504f9eefc6e7fbe74a431784c67",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
