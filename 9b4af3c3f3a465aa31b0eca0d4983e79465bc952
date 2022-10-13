@@ -16,6 +16,23 @@
       "message": "https://www.apnsettings.org/de/vodafone-apn-einstellungen-fur-android/ These are known working settings",
       "revId": "9b4af3c3f3a465aa31b0eca0d4983e79465bc952",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9ba3f97a_151b048a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-10-13T19:48:12Z",
+      "side": 1,
+      "message": "This _should_ match 3.9,0 which was fine.",
+      "revId": "9b4af3c3f3a465aa31b0eca0d4983e79465bc952",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
