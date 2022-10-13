@@ -64,6 +64,9 @@ function blob_fixup() {
         vendor/lib64/hw/fingerprint.lito.so)
             sed -i 's|fpsensor_fingerprint\x00|fingerprint\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|g' "${2}"
             ;;
+        product/etc/apns-conf.xml)
+            patch -p1 "${2}" "${MY_DIR}/apns-conf.xml.diff"
+            ;;
     esac
 }
 
