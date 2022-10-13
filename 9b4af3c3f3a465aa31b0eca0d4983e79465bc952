@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "16216758_8d278ce6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-10-13T19:45:51Z",
+      "side": 1,
+      "message": "https://www.apnsettings.org/de/vodafone-apn-einstellungen-fur-android/ These are known working settings",
+      "revId": "9b4af3c3f3a465aa31b0eca0d4983e79465bc952",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
