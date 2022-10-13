@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0014c0e6_bc5ff150",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 193,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-10-13T19:19:36Z",
+      "side": 1,
+      "message": "Should we move these to a different file / location. Why have a conflict every month.",
+      "revId": "26014a2b5ee65504f9eefc6e7fbe74a431784c67",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
