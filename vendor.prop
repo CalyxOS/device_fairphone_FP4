@@ -199,3 +199,6 @@ ro.surface_flinger.wcg_composition_dataspace=143261696
 
 # Zygote
 zygote.critical_window.minute=10
+
+# fastbootd
+ro.recovery.usb.fastboot.pid=D00D
