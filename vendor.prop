@@ -182,6 +182,7 @@ vendor.usb.rmnet.inst.name=rmnet
 vendor.usb.rndis.func.name=gsi
 vendor.usb.use_ffs_mtp=0
 vendor.usb.use_gadget_hal=0
+ro.recovery.usb.fastboot.pid=D00D
 
 # WiFi
 wifi.aware.interface=wifi-aware0
