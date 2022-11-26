@@ -182,6 +182,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service_64 \
+    libcamera_metadata_shim \
     vendor.qti.hardware.camera.device@1.0.vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor
 
@@ -195,7 +196,9 @@ PRODUCT_PACKAGES += \
     gralloc.lito \
     memtrack.lito \
     libdisplayconfig.qti \
+    libdisplayconfig.system.qti \
     libqdMetaData \
+    libqdMetaData.system \
     libsdmcore \
     libsdmutils \
     libtinyxml \
