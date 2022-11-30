@@ -16,6 +16,23 @@
       "message": "Not sure if vendor.prop will override 14591: Set default recovery USB vendor/product IDs. | https://review.calyxos.org/c/CalyxOS/platform_build/+/14591 but that should be quick to test.",
       "revId": "db220a47be5be146d35a815a64b3d7ab73e48cb0",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1a463386_fcc136ea",
+        "filename": "vendor.prop",
+        "patchSetId": 1
+      },
+      "lineNbr": 175,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2022-11-30T18:18:58Z",
+      "side": 1,
+      "message": "Just put it in this section",
+      "revId": "db220a47be5be146d35a815a64b3d7ab73e48cb0",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
