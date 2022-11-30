@@ -33,6 +33,24 @@
       "message": "Just put it in this section",
       "revId": "db220a47be5be146d35a815a64b3d7ab73e48cb0",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "affd5e3c_13b5a821",
+        "filename": "vendor.prop",
+        "patchSetId": 1
+      },
+      "lineNbr": 175,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-11-30T21:08:08Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a463386_fcc136ea",
+      "revId": "db220a47be5be146d35a815a64b3d7ab73e48cb0",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
