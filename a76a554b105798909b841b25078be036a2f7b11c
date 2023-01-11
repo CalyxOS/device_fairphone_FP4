@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e0ab20ba_5e0a0c76",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2023-01-11T14:01:00Z",
+      "side": 1,
+      "message": "\"Partially Implemented\" mentioned because I could not find all the commits mentioned in ASB page backported, however `ASB-2022-12-05_4.19-stable` and `ASB-2023-01-05_4.19-stable` tags have been released and claim to have them patched.",
+      "revId": "a76a554b105798909b841b25078be036a2f7b11c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
