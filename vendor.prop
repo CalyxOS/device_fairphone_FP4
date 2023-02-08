@@ -162,7 +162,7 @@ ro.com.android.dataroaming=true
 ro.telephony.iwlan_operation_mode=AP-assisted
 
 # Security patch
-ro.vendor.kernel.security_patch=2023-01-05
+ro.vendor.kernel.security_patch=2023-02-05
 
 # Sensors
 persist.vendor.sensors.debug.ssc_qmi_debug=true
