@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8a7cd14b_3230e730",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2023-02-08T17:21:30Z",
+      "side": 1,
+      "message": "Depends on kernel merge and double check for the required commits.",
+      "revId": "b0c15a052b9400155902f2bbec3121f0576fe594",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
