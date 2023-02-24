@@ -16,6 +16,24 @@
       "message": "Depends on kernel merge and double check for the required commits.",
       "revId": "b0c15a052b9400155902f2bbec3121f0576fe594",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ae17f9ce_7d4ff08b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-02-24T22:08:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8a7cd14b_3230e730",
+      "revId": "b0c15a052b9400155902f2bbec3121f0576fe594",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
