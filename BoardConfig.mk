@@ -203,7 +203,8 @@ VENDOR_SECURITY_PATCH := 2023-08-05
 
 # Calyx
 PLATFORM_SECURITY_PATCH := 2023-08-05
-PLATFORM_SECURITY_PATCH_TIMESTAMP := $(shell date -d 'TZ="GMT" $(PLATFORM_SECURITY_PATCH)' +%s)
+STOCK_SECURITY_PATCH := 2023-08-05 # Latest stock update available
+PLATFORM_SECURITY_PATCH_TIMESTAMP := $(shell date -d 'TZ="GMT" $(STOCK_SECURITY_PATCH)' +%s)
 
 # SEPolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
