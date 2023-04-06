@@ -172,3 +172,13 @@ service dcvs-sh /vendor/bin/init.qti.dcvs.sh
 
 on property:vendor.dcvs.prop=1
    start dcvs-sh
+
+service disable_usb_data /system/bin/bootstrap/linkerconfig --help
+    # This service runs a command that does effectively nothing. The real action happens in
+    # onrestart. init.rc starts, restarts, and stops this service. This way we don't need a
+    # separate script/binary and sepolicy to perform this very simple action.
+    onrestart write /sys/devices/platform/soc/a600000.ssusb/usb_data_enabled 0
+    # User and group below are for the service command itself, not the line above.
+    user nobody
+    group nobody
+    oneshot
