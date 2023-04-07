@@ -173,11 +173,27 @@ service dcvs-sh /vendor/bin/init.qti.dcvs.sh
 on property:vendor.dcvs.prop=1
    start dcvs-sh
 
+on post-fs
+    # Needed to allow reactivating USB without running script as root.
+    chown root system /sys/devices/platform/soc/a600000.ssusb/usb_data_enabled
+    chown root system /sys/devices/platform/soc/a600000.ssusb/mode
+    chmod 664 /sys/devices/platform/soc/a600000.ssusb/usb_data_enabled
+    chmod 664 /sys/devices/platform/soc/a600000.ssusb/mode
+
 service disable_usb_data /system/bin/bootstrap/linkerconfig --help
     # This service runs a command that does effectively nothing. The real action happens in
     # onrestart. init.rc starts, restarts, and stops this service. This way we don't need a
     # separate script/binary and sepolicy to perform this very simple action.
     onrestart write /sys/devices/platform/soc/a600000.ssusb/usb_data_enabled 0
+    # User and group below are for the service command itself, not the line above.
+    user nobody
+    group nobody
+    oneshot
+
+service enable_usb_data /system/bin/bootstrap/linkerconfig --help
+    # This could be a normal service, but for flexibility, as above, it is structured to run
+    # on restart, in the event that a script is not needed in the future or for certain devices.
+    onrestart exec_background - nobody system -- /vendor/bin/init.enable_usb_data.sh /sys/devices/platform/soc/a600000.ssusb/usb_data_enabled 1 /sys/class/typec/port0-partner /sys/class/typec/port0/data_role [host] /sys/devices/platform/soc/a600000.ssusb/mode host peripheral
     # User and group below are for the service command itself, not the line above.
     user nobody
     group nobody
