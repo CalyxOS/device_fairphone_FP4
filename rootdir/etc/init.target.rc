@@ -182,3 +182,11 @@ service disable_usb_data /system/bin/bootstrap/linkerconfig --help
     user nobody
     group nobody
     oneshot
+
+service enable_usb_data /system/bin/bootstrap/linkerconfig --help
+    # This could be a normal service, but for flexibility, as above, it is structured to run
+    # on restart, in the event that a script is not needed in the future or for certain devices.
+    onrestart exec_background -- /vendor/bin/init.enable_usb_data.sh /sys/devices/platform/soc/a600000.ssusb/usb_data_enabled 1 /sys/class/typec/port0-partner /sys/class/typec/port0/data_role [host] /sys/devices/platform/soc/a600000.ssusb/mode host peripheral
+    user nobody
+    group nobody
+    oneshot
