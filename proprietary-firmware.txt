@@ -5,10 +5,8 @@ aop.mbn:aop.img;AB
 BTFM.bin:bluetooth.img;AB
 Core_NON-HLOS.bin:core_nhlos.img;AB
 devcfg.mbn:devcfg.img;AB
-devinfo_for_factory.img:devinfo.img
 dspso.bin:dsp.img;AB
 featenabler.mbn:featenabler.img;AB
-frp_for_factory.img:frp.img
 hyp.mbn:hyp.img;AB
 imagefv.elf:imagefv.img;AB
 km41.mbn:keymaster.img;AB
