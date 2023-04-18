@@ -55,11 +55,11 @@ fi
 
 function blob_fixup() {
     case "${1}" in
-        vendor/lib64/hw/camera.qcom.so)
-            grep -q libcamera_metadata_shim.so "${2}" || "${PATCHELF}" --add-needed libcamera_metadata_shim.so "${2}"
-            ;;
         vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.bitra.so)
             "${SIGSCAN}" -p "13 0a 00 94" -P "1F 20 03 D5" -f "${2}"
+            ;;
+        vendor/lib64/hw/fingerprint.lito.so)
+            sed -i 's|fpsensor_fingerprint\x00|fingerprint\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|g' "${2}"
             ;;
         product/etc/apns-conf.xml)
             patch -p1 "${2}" "${MY_DIR}/apns-conf.xml.diff"
