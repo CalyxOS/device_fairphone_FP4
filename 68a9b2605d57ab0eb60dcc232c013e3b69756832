@@ -34,6 +34,24 @@
       "parentUuid": "f5c1871c_e9fb37df",
       "revId": "68a9b2605d57ab0eb60dcc232c013e3b69756832",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6917654b_8e5d2138",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 201,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2023-04-19T12:12:55Z",
+      "side": 1,
+      "message": "Well as I have commented in the past for the exact same comment, it was done on purpose so we never forget to bump it.",
+      "parentUuid": "9e7976a2_19fca939",
+      "revId": "68a9b2605d57ab0eb60dcc232c013e3b69756832",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
