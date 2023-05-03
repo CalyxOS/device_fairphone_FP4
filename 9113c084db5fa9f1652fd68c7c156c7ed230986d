@@ -16,6 +16,23 @@
       "message": "Wait for AOSP",
       "revId": "9113c084db5fa9f1652fd68c7c156c7ed230986d",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e96eebab_14dc83d4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2023-05-03T17:02:15Z",
+      "side": 1,
+      "message": "FP4 is not affected directly by CVE-2023-21102 because shadow call stack is not enabled for all QCOM 4.19. The patch for it isn\u0027t present in the May Pixel 4.19 kernel as well.",
+      "revId": "9113c084db5fa9f1652fd68c7c156c7ed230986d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
