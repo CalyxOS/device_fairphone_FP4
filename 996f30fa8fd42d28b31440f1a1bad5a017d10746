@@ -16,6 +16,24 @@
       "message": "Not sure if this will 100% match stock but there is no easy way to check at the moment without OTA or factory images.",
       "revId": "996f30fa8fd42d28b31440f1a1bad5a017d10746",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "254ddbb2_83fae51c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-05-10T15:56:57Z",
+      "side": 1,
+      "message": "* 4.9.0: older than stock, CalyxOS install won\u0027t work\n* 4.9.2 with this: same as or newer than stock, CalyxOS will install fine.\n\nIf stock is somehow still older, worst case people can\u0027t go lock stock for a month. Unlikely, though.",
+      "parentUuid": "6daa2b32_2da0b72e",
+      "revId": "996f30fa8fd42d28b31440f1a1bad5a017d10746",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
