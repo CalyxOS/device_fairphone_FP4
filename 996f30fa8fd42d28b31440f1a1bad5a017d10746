@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6daa2b32_2da0b72e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2023-05-10T13:57:19Z",
+      "side": 1,
+      "message": "Not sure if this will 100% match stock but there is no easy way to check at the moment without OTA or factory images.",
+      "revId": "996f30fa8fd42d28b31440f1a1bad5a017d10746",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
