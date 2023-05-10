@@ -199,7 +199,7 @@ VENDOR_SECURITY_PATCH := 2023-03-05
 
 # Calyx
 PLATFORM_SECURITY_PATCH := 2023-03-05
-STOCK_SECURITY_PATCH := 2023-03-05 # Latest stock update available
+STOCK_SECURITY_PATCH := 2023-04-05 # Latest stock update available
 PLATFORM_SECURITY_PATCH_TIMESTAMP := $(shell date -d 'TZ="GMT" $(STOCK_SECURITY_PATCH)' +%s)
 
 # SEPolicy
