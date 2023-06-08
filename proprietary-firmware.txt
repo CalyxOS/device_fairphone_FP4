@@ -1,4 +1,4 @@
-# Firmware from Fairphone/FP4eea/FP4:12/SKQ1.220201.001/SP28:user/release-keys
+# Firmware from Fairphone/FP4eea/FP4:12/SKQ1.220201.001/SP29:user/release-keys
 
 abl_ecc.elf:abl.img;AB
 aop.mbn:aop.img;AB
