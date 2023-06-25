@@ -9,7 +9,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit some common stuff
-$(call inherit-product, vendor/calyx/config/common.mk)
+$(call inherit-product, vendor/calyx/config/common_phone.mk)
 
 # Inherit from FP4 device
 $(call inherit-product, device/fairphone/FP4/device.mk)
