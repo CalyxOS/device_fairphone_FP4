@@ -2,7 +2,7 @@ diff --git a/proprietary/product/etc/apns-conf.xml b/proprietary/product/etc/apn
 index f9f3e19..656b12a 100644
 --- a/proprietary/product/etc/apns-conf.xml
 +++ b/proprietary/product/etc/apns-conf.xml
-@@ -3304,6 +3304,10 @@
+@@ -3316,6 +3316,10 @@
          mmsport="80" mmsproxy="139.7.29.17" mnc="02" mvno_match_data="" mvno_type=""
          password="" port="" protocol="IPV4V6" proxy="" roaming_protocol="IP"
          server="" type="mms" user="" user_editable="false" user_visible="true" />-->
@@ -13,7 +13,7 @@ index f9f3e19..656b12a 100644
      <apn apn="ims" bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18" carrier="Vodafone DE IMS" class="" mcc="262" mmsc="" mmsport=""
          mmsproxy="" mnc="02" mvno_match_data="" mvno_type="" password="" port="" protocol="IPV4V6"
          proxy="" roaming_protocol="IPV6"
-@@ -3346,7 +3350,7 @@
+@@ -3358,7 +3362,7 @@
          password="" port="" protocol="IP" proxy="" roaming_protocol="IP"
          server="" type="default,mms,xcap" user="" user_editable="true" user_visible="true" />
      <!--Modify  begin by shaopan.tang 2022-03-18 [FP4-3588]CHANGE APN for vodafone-->
