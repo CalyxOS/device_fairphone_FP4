@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "40122494_458fa41a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-10-25T16:34:57Z",
+      "side": 1,
+      "message": "Hold for some users having touchscreen issues.",
+      "revId": "ad92faf7d0b2b73a9b8c43cb583d46fc7ab1adbc",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
