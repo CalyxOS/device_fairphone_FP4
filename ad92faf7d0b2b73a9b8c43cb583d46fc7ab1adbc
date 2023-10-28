@@ -16,6 +16,24 @@
       "message": "Hold for some users having touchscreen issues.",
       "revId": "ad92faf7d0b2b73a9b8c43cb583d46fc7ab1adbc",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "35b350be_649801c2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2023-10-28T15:31:24Z",
+      "side": 1,
+      "message": "https://review.calyxos.org/c/CalyxOS/proprietary_vendor_fairphone_FP4/+/22505",
+      "parentUuid": "40122494_458fa41a",
+      "revId": "ad92faf7d0b2b73a9b8c43cb583d46fc7ab1adbc",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
