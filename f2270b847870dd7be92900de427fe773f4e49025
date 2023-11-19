@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a5d1bdb0_a85a0f39",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 206,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-11-19T11:06:14Z",
+      "side": 1,
+      "message": "14 didn\u0027t have https://review.calyxos.org/c/CalyxOS/device_fairphone_FP4/+/22855/1/BoardConfig.mk",
+      "revId": "f2270b847870dd7be92900de427fe773f4e49025",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
