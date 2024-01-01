@@ -34,5 +34,9 @@ write_makefiles "${MY_DIR}/proprietary-files.txt" true
 
 append_firmware_calls_to_makefiles "${MY_DIR}/proprietary-firmware.txt"
 
+printf '%s\n' "\$(call add-radio-file,factory/devinfo.img)" >> "${ANDROIDMK}"
+printf '%s\n' "\$(call add-radio-file,factory/frp.img)" >> "${ANDROIDMK}"
+printf '\n' >> "${ANDROIDMK}"
+
 # Finish
 write_footers
