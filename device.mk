@@ -202,7 +202,6 @@ PRODUCT_PACKAGES += \
     libqdMetaData.system \
     libsdmcore \
     libsdmutils \
-    libtinyxml \
     libvulkan \
     vendor.display.config@1.5 \
     vendor.display.config@1.11.vendor \
@@ -403,7 +402,6 @@ PRODUCT_COPY_FILES += \
 # Rootdir
 PRODUCT_PACKAGES += \
     init.class_main.sh \
-    init.qcom.class_core.sh \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
     init.qcom.sh \
