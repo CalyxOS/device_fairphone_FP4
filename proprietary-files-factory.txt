@@ -1,0 +1,2 @@
+devinfo_for_factory.img:devinfo.img
+frp_for_factory.img:frp.img

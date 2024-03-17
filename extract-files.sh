@@ -74,6 +74,7 @@ function blob_fixup() {
 setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}" false "${CLEAN_VENDOR}"
 
 extract "${MY_DIR}/proprietary-files.txt" "${SRC}" "${KANG}" --section "${SECTION}"
+extract_factory "${MY_DIR}/proprietary-files-factory.txt" "${SRC}"
 
 if [ -z "${SECTION}" ]; then
     extract_firmware "${MY_DIR}/proprietary-firmware.txt" "${SRC}"
