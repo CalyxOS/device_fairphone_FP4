@@ -77,6 +77,7 @@ extract "${MY_DIR}/proprietary-files.txt" "${SRC}" "${KANG}" --section "${SECTIO
 
 if [ -z "${SECTION}" ]; then
     extract_firmware "${MY_DIR}/proprietary-firmware.txt" "${SRC}"
+    extract_factory "${MY_DIR}/proprietary-firmware-factory.txt" "${SRC}"
 fi
 
 "${MY_DIR}/setup-makefiles.sh"
