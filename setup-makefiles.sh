@@ -34,8 +34,13 @@ write_makefiles "${MY_DIR}/proprietary-files.txt" true
 
 append_firmware_calls_to_makefiles "${MY_DIR}/proprietary-firmware.txt"
 
-printf '%s\n' "\$(call add-radio-file,factory/devinfo.img)" >> "${ANDROIDMK}"
+printf '%s\n' "\$(call add-radio-file,factory/apdp.img)" >> "${ANDROIDMK}"
+printf '%s\n' "\$(call add-radio-file,factory/ddr.img)" >> "${ANDROIDMK}"
 printf '%s\n' "\$(call add-radio-file,factory/frp.img)" >> "${ANDROIDMK}"
+printf '%s\n' "\$(call add-radio-file,factory/logfs.img)" >> "${ANDROIDMK}"
+printf '%s\n' "\$(call add-radio-file,factory/storsec.img)" >> "${ANDROIDMK}"
+printf '%s\n' "\$(call add-radio-file,factory/toolsfv.img)" >> "${ANDROIDMK}"
+printf '%s\n' "\$(call add-radio-file,factory/tunning.img)" >> "${ANDROIDMK}"
 printf '\n' >> "${ANDROIDMK}"
 
 # Finish
