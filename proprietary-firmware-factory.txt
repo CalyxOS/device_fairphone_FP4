@@ -1,4 +1,9 @@
-# Firmware from Fairphone/FP4eea/FP4:13/TKQ1.230127.002/TP29:user/release-keys
+# Firmware from Fairphone/FP4eea/FP4:13/TKQ1.230127.002/TP2D:user/release-keys
 
-devinfo_for_factory.img:devinfo.img
+apdp.mbn:apdp.img
 frp_for_factory.img:frp.img
+logfs_ufs_8mb.bin:logfs.img
+storsec.mbn:storsec.img
+study.tar:tunning.img
+tools.fv:toolsfv.img
+zeros_5sectors.bin:ddr.img
