@@ -1,6 +1,5 @@
 #
-# Copyright (C) 2022 The Calyx Institute
-#
+# SPDX-FileCopyrightText: 2022-2024 The Calyx Institute
 # SPDX-License-Identifier: Apache-2.0
 #
 
@@ -21,8 +20,9 @@ PRODUCT_BRAND := Fairphone
 PRODUCT_MODEL := FP4
 PRODUCT_MANUFACTURER := Fairphone
 
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="qssi-user 13 TKQ1.230127.002 TP2D release-keys" \
-    TARGET_PRODUCT=FP4eea
+PRODUCT_SYSTEM_NAME := FP4eea
 
-BUILD_FINGERPRINT := "Fairphone/FP4eea/FP4:13/TKQ1.230127.002/TP2D:user/release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
+
+BUILD_FINGERPRINT := Fairphone/FP4eea/FP4:13/TKQ1.230127.002/TP2D:user/release-keys
