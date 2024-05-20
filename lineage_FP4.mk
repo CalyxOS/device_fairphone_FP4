@@ -1,6 +1,5 @@
 #
-# Copyright (C) 2021-2023 The LineageOS Project
-#
+# SPDX-FileCopyrightText: 2021-2024 The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
 #
 
@@ -30,7 +29,6 @@ PRODUCT_SYSTEM_NAME := FP4eea
 PRODUCT_GMS_CLIENTID_BASE := android-alcatel
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="qssi-user 13 TKQ1.230127.002 TP2D release-keys" \
-    TARGET_PRODUCT=FP4eea
+    TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
 
-BUILD_FINGERPRINT := "Fairphone/FP4eea/FP4:13/TKQ1.230127.002/TP2D:user/release-keys"
+BUILD_FINGERPRINT := Fairphone/FP4eea/FP4:13/TKQ1.230127.002/TP2D:user/release-keys
