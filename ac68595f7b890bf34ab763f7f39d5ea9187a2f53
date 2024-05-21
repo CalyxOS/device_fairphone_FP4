@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9b31d36a_7242290c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-05-21T17:10:08Z",
+      "side": 1,
+      "message": "Hold because of comments on following \"Adapt\" change.",
+      "revId": "ac68595f7b890bf34ab763f7f39d5ea9187a2f53",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
