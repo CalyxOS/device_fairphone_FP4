@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4db86e36_b514f0cc",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 188,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-05-21T17:12:10Z",
+      "side": 0,
+      "message": "This is fine because from the https://review.calyxos.org/q/topic:%22rollback%22 changes the only differences were in \"vbmeta_system.img\"\u0027s Rollback Index anyways, which is set below on line 199.",
+      "revId": "ac68595f7b890bf34ab763f7f39d5ea9187a2f53",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
