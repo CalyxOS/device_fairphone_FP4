@@ -87,6 +87,7 @@
         <device name="SND_DEVICE_OUT_HANDSET" acdb_id="7"/>
         <device name="SND_DEVICE_OUT_VOICE_HANDSET" acdb_id="7"/>
         <device name="SND_DEVICE_OUT_SPEAKER" acdb_id="15"/>
+        <device name="SND_DEVICE_OUT_VOICE_SPEAKER" acdb_id="15"/>
         <device name="SND_DEVICE_OUT_VOICE_HAC_HANDSET" acdb_id="53"/>
         <device name="SND_DEVICE_OUT_SPEAKER_REVERSE" acdb_id="15"/>
         <device name="SND_DEVICE_OUT_SPEAKER_PROTECTED" acdb_id="124"/>
@@ -111,6 +112,14 @@
         <device name="SND_DEVICE_IN_HANDSET_GENERIC_QMIC" acdb_id="191"/>
         <device name="SND_DEVICE_OUT_VOICE_HANDSET_TMUS" acdb_id="7"/>
         <device name="SND_DEVICE_IN_VOICE_DMIC_TMUS" acdb_id="41"/>
+        <device name="SND_DEVICE_IN_CAMCORDER_LANDSCAPE" acdb_id="35"/>
+        <device name="SND_DEVICE_IN_CAMCORDER_INVERT_LANDSCAPE" acdb_id="34"/>
+        <device name="SND_DEVICE_IN_CAMCORDER_PORTRAIT" acdb_id="34"/>
+        <device name="SND_DEVICE_IN_CAMCORDER_SELFIE_LANDSCAPE" acdb_id="34"/>
+        <device name="SND_DEVICE_IN_CAMCORDER_SELFIE_INVERT_LANDSCAPE" acdb_id="35"/>
+        <device name="SND_DEVICE_IN_CAMCORDER_SELFIE_PORTRAIT" acdb_id="34"/>
+        <device name="SND_DEVICE_IN_HANDSET_MIC_SB" acdb_id="4"/>
+        <device name="SND_DEVICE_IN_HANDSET_MIC_NN" acdb_id="4"/>
     </acdb_ids>
     <backend_names>
         <device name="SND_DEVICE_OUT_HEADPHONES" backend="headphones" interface="RX_CDC_DMA_RX_0"/>
@@ -259,6 +268,19 @@
         <device name="SND_DEVICE_OUT_SPEAKER_AND_BT_SCO" backend="speaker-and-bt-sco" interface="QUIN_MI2S_RX-and-SLIMBUS_7_RX"/>
         <device name="SND_DEVICE_OUT_SPEAKER_AND_BT_SCO_WB" backend="speaker-and-bt-sco-wb" interface="QUIN_MI2S_RX-and-SLIMBUS_7_RX"/>
     </backend_names>
+    <device_names>
+        <device name="SND_DEVICE_IN_CAMCORDER_LANDSCAPE" alias="speaker-stereo-dmic-ef" />
+        <device name="SND_DEVICE_IN_CAMCORDER_INVERT_LANDSCAPE" alias="handset-stereo-dmic-ef" />
+        <device name="SND_DEVICE_IN_CAMCORDER_PORTRAIT" alias="handset-stereo-dmic-ef" />
+        <device name="SND_DEVICE_IN_CAMCORDER_SELFIE_LANDSCAPE" alias="handset-stereo-dmic-ef" />
+        <device name="SND_DEVICE_IN_CAMCORDER_SELFIE_INVERT_LANDSCAPE" alias="speaker-stereo-dmic-ef" />
+        <device name="SND_DEVICE_IN_CAMCORDER_SELFIE_PORTRAIT" alias="handset-stereo-dmic-ef" />
+        <device name="SND_DEVICE_IN_HANDSET_MIC_SB" alias="handset-mic2" />
+        <device name="SND_DEVICE_IN_HANDSET_MIC_NN" alias="handset-mic3" />
+        <device name="SND_DEVICE_IN_HANDSET_MIC_EXTERNAL" alias="handset-mic4" />
+        <device name="SND_DEVICE_OUT_SPEAKER_EXTERNAL_1" alias="speaker-mono" />
+        <device name="SND_DEVICE_OUT_SPEAKER_EXTERNAL_2" alias="speaker-mono-2" />
+    </device_names>
     <!-- below values are for ref purpose to OEM, doesn't contain actual hardware info on MTP -->
     <microphone_characteristics>
         <microphone valid_mask="31" device_id="builtin_mic_1" type="AUDIO_DEVICE_IN_BUILTIN_MIC" address="bottom" location="AUDIO_MICROPHONE_LOCATION_MAINBODY"
