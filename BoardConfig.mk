@@ -191,7 +191,7 @@ BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
 
 # Verified Boot
-STOCK_SECURITY_PATCH := 2024-03-05 # Latest stock update available
+STOCK_SECURITY_PATCH := 2024-05-05 # Latest stock update available
 BOARD_AVB_ENABLE := true
 BOARD_AVB_VBMETA_SYSTEM := system system_ext product
 BOARD_AVB_VBMETA_SYSTEM_ALGORITHM := SHA256_RSA2048
