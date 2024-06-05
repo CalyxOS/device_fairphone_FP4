@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2bed9903_b99ae3cf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-06-05T21:51:42Z",
+      "side": 1,
+      "message": "Not yet tested on device.\n\nNeeds [this vendor/calyx change](https://review.calyxos.org/c/CalyxOS/vendor_calyx/+/26641).\n\nI have only tested the [bluejay change](https://review.calyxos.org/c/CalyxOS/device_google_bluejay/+/26644). It \"works\" there; the \"No service\" issue is resurrected, and the priority of this overlay seen in `adb shell cmd overlay dump com.android.carrierconfig.overlay.merged.entries` is 3 while the vendor/calyx `com.android.carrierconfig.overlay.standalone.entries` overlay is 2.",
+      "revId": "1747f9154f42fb7dde319ba02c0c9e2eb241cf43",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
