@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2024 The Calyx Institute
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Flag indicating whether vendor-supplied carrier_config entries should be treated as
+         standalone, meaning that if our assets folder contains a carrier_config for the entry
+         already, it will be disregarded in favor of the vendor's. When false, attributes from
+         vendor-supplied carrier_config entries are merged with ours, preserving attributes that
+         are not specified by the vendor configuration. -->
+    <bool name="standalone_vendor_entries">false</bool>
+</resources>
