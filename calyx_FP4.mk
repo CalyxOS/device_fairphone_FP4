@@ -25,8 +25,4 @@ PRODUCT_SYSTEM_NAME := FP4eea
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
 
-# Carrier config
-PRODUCT_PACKAGES += \
-    CarrierConfigMergedEntriesOverlay
-
 BUILD_FINGERPRINT := Fairphone/FP4eea/FP4:13/TKQ1.230127.002/TP2G:user/release-keys
