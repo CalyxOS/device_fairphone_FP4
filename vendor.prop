@@ -181,7 +181,7 @@ ro.telephony.default_network=26,26
 telephony.lteOnCdmaDevice=1
 
 # Security patch
-ro.vendor.kernel.security_patch=2024-06-05
+ro.vendor.kernel.security_patch=2024-07-05
 
 # Sensors
 persist.vendor.sensors.allow_non_default_discovery=true
