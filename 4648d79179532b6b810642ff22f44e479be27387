@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "111841a4_33778d6d",
+        "filename": "extract-files.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-08-30T11:59:55Z",
+      "side": 1,
+      "message": "Should we switch to `git apply` here as well?",
+      "revId": "4648d79179532b6b810642ff22f44e479be27387",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
