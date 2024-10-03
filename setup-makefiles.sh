@@ -51,7 +51,6 @@ function lib_to_package_fixup_vendor_variants() {
             ;;
         libOmxCore | \
             libril | \
-            libwfdaac_vendor | \
             libwpa_client) ;;
         *)
             return 1
@@ -71,7 +70,7 @@ setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}"
 # Warning headers and guards
 write_headers
 
-write_makefiles "${MY_DIR}/proprietary-files.txt" true
+write_makefiles "${MY_DIR}/proprietary-files.txt"
 
 append_firmware_calls_to_makefiles "${MY_DIR}/proprietary-firmware.txt"
 append_factory_calls_to_makefiles "${MY_DIR}/proprietary-firmware-factory.txt"
