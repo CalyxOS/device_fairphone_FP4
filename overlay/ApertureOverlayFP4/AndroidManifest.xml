@@ -4,8 +4,8 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.lineageos.aperture.overlay.FP4">
-    <overlay android:targetPackage="org.lineageos.aperture"
+    package="org.calyxos.aperture.overlay.FP4">
+    <overlay android:targetPackage="org.calyxos.aperture"
              android:isStatic="true"
              android:priority="0" />
 </manifest>
