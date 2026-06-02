@@ -22,6 +22,6 @@ PRODUCT_MODEL := FP4
 PRODUCT_MANUFACTURER := Fairphone
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="FP4-user 15 FP4.SREL.15.14.4 15.14.4 release-keys" \
-    BuildFingerprint=Fairphone/FP4eea/FP4:15/FP4.SREL.15.14.34/15.14.4:user/release-keys \
+    BuildDesc="FP4-user 15 FP4.QREL.15.16.1 15.16.1 release-keys" \
+    BuildFingerprint=Fairphone/FP4eea/FP4:15/FP4.QREL.15.16.1/15.16.1:user/release-keys \
     DeviceProduct=FP4eea
