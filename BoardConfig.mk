@@ -76,6 +76,7 @@ BOARD_KERNEL_CMDLINE := \
     androidboot.memcg=1 \
     androidboot.usbcontroller=a600000.dwc3 \
     cgroup.memory=nokmem,nosocket \
+    deferred_probe_timeout=300 \
     loop.max_part=7 \
     lpm_levels.sleep_disabled=1 \
     msm_rtb.filter=0x237 \
@@ -169,7 +170,7 @@ TARGET_USERIMAGES_USE_F2FS := true
 ENABLE_VENDOR_RIL_SERVICE := true
 
 # Security patch level
-BOOT_SECURITY_PATCH := 2026-03-05
+BOOT_SECURITY_PATCH := 2026-05-05
 VENDOR_SECURITY_PATCH := $(BOOT_SECURITY_PATCH)
 
 # Calyx
@@ -181,7 +182,7 @@ BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
 
 # Verified Boot
-STOCK_SECURITY_PATCH := 2026-03-05 # Latest stock update available
+STOCK_SECURITY_PATCH := 2026-05-05 # Latest stock update available
 BOARD_AVB_ENABLE := true
 
 ifneq (,$(AVB_CUSTOM_KEY_PATH))
