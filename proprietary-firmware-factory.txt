@@ -1,7 +1,6 @@
 # Firmware from the release mentioned in proprietary-firmware.txt
 
 apdp.mbn:apdp.img
-frp_for_factory.img:frp.img
 logfs_ufs_8mb.bin:logfs.img
 storsec.mbn:storsec.img
 study.tar:tunning.img
