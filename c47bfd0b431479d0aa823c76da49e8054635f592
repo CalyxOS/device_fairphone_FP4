@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3661784c_fb3cb710",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-08-05T21:37:55Z",
+      "side": 1,
+      "message": "No proprietary file updates for this one",
+      "revId": "c47bfd0b431479d0aa823c76da49e8054635f592",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
