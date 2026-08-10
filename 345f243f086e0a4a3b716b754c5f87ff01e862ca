@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f81717e3_e619fad3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-08-10T13:06:36Z",
+      "side": 1,
+      "message": "This *might* be useless nowadays, but keeping it for now",
+      "revId": "345f243f086e0a4a3b716b754c5f87ff01e862ca",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
