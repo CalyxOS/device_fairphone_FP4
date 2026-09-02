@@ -1,5 +1,5 @@
 #
-# SPDX-FileCopyrightText: 2021-2025 The LineageOS Project
+# SPDX-FileCopyrightText: The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
 #
 
@@ -200,9 +200,6 @@ $(call soong_config_set_bool,libion,legacy_impl,true)
 PRODUCT_PACKAGES += \
     ipacm \
     IPACM_cfg.xml
-
-# Kernel
-PRODUCT_ENABLE_UFFD_GC := true
 
 # Lineage Health
 PRODUCT_PACKAGES += \
